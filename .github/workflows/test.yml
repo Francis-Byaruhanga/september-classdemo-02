@@ -3,7 +3,7 @@ name: js_test
 
 # Trigger
 on: [push]
-  job:
+  jobs:
     test:
       runs-on: macos-latest
       steps: 
@@ -21,4 +21,4 @@ on: [push]
         - name: run_test
           run: npm test
 
-          
+
